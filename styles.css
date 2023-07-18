@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+*{
+    background-color: #cccccc;
+    
+}
+body{
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#heading{
+   /* border: 1px solid rgb(145, 52, 52); */
+  text-align: center;
+  margin-bottom: 30px;
+}
+.player_one{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.player_one a{
+    margin-left: 30px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+
+}
+#heading_2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 250;
+    font-size: large;
+    font-weight: bold;
+}
+.player_two{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 375px;
+    margin-left: 40%;
+    background-color: white;
+    border-radius: 15px;;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.player_two video{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+  border-radius: 15px;
+ 
+}
+.player_two h3{
+    text-align: center;
+    background-color: azure;
+    margin-top: 5px;
+
+
+}
+.player_two p{
+    background-color: azure
+}
+audio{
+    background-color: azure;
+    align-items: center;
+    margin-left: 20px;
+}
