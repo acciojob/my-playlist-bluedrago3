@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 *{
     background-color: #cccccc;
     
@@ -16,10 +15,14 @@ body{
 .player_one{
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 100%;
+    width: inherit;
+    margin: 20px;
+    height: 130px;
     background-color: white;
     border-radius: 15px;;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 .player_one a{
     margin-left: 30px;
@@ -28,6 +31,13 @@ body{
     color: black;
     line-height: 20px;
 
+}
+ul>li{
+    background-color:white;
+    padding: 3px;
+}
+ul>li:first-child{
+    padding-top: 0px;
 }
 #heading_2{
     text-align: center;
@@ -46,7 +56,7 @@ body{
     width: 375px;
     margin-left: 40%;
     background-color: white;
-    border-radius: 15px;;
+    border-radius: 10px;;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .player_two video{
